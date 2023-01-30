@@ -27,3 +27,6 @@ A customer list where they can check out the specific wants of each customer via
 AWS - EC2-
 I created an instance and assigned an elastic IP to it which is http://3.132.194.124/
 SSH'd into my instance >ssh -i "june10.pem" ubuntu@ec2-3-132-194-124.us-east-2.compute.amazonaws.com
+OR
+ssh -i "june10.pem" ubuntu@greenconnect.click
+
