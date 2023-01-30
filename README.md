@@ -23,3 +23,7 @@ A calendar page with all of the visits that are scheduled
 A customer list where they can check out the specific wants of each customer via the uploaded photos and the list of greenery. 
 
 [Drawings of Layout.pdf](https://github.com/Agleaso4/startup/files/10470782/Drawings.of.Layout.pdf)
+
+AWS - EC2-
+I created an instance and assigned an elastic IP to it which is http://3.132.194.124/
+SSH'd into my instance >ssh -i "june10.pem" ubuntu@ec2-3-132-194-124.us-east-2.compute.amazonaws.com
