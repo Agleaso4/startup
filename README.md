@@ -30,3 +30,5 @@ SSH'd into my instance >ssh -i "june10.pem" ubuntu@ec2-3-132-194-124.us-east-2.c
 OR
 ssh -i "june10.pem" ubuntu@greenconnect.click
 
+The new link is https://greenconnect.click/ 
+We created a secure connection via the caddy server that talks with "Let's Encrypt" which allows for privacy and security to go along with the app.
