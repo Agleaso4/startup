@@ -36,3 +36,7 @@ We created a secure connection via the caddy server that talks with "Let's Encry
 Introduction to html, I made a fork and customized the wording and the link to greenconnect.click so that was a cool opportunity. The other thing that I learned was how to section the wording off with certain commands. https://codepen.io/agleaso4/pen/poZqLBM
 
 HTML Structure, I built and created some more tables where the calendar could go, and it helped me see what I could start doing for my future website to make it simple for the programmer and the user. https://codepen.io/agleaso4/pen/RwBEJzG
+
+HTML Input, I customized a few things to go along with a very rough draft of what I am wanting to do with my website which is awsome. My URL https://codepen.io/agleaso4/pen/MWBZBQM
+Original with all the inputs https://codepen.io/leesjensen/pen/dyVdNej
+
