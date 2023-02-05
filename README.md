@@ -40,3 +40,4 @@ HTML Structure, I built and created some more tables where the calendar could go
 HTML Input, I customized a few things to go along with a very rough draft of what I am wanting to do with my website which is awsome. My URL https://codepen.io/agleaso4/pen/MWBZBQM
 Original with all the inputs https://codepen.io/leesjensen/pen/dyVdNej
 
+HTML Media, super excited about the logo that I was able to make. https://codepen.io/agleaso4/pen/ExpMPKP 
