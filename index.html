@@ -10,19 +10,25 @@
     <main>
         <img src="GreenConnect Logo.png"
             width="200"/>
-        <p>Login</p>
-        <div class="Account Type">
-            <button class="dropbtn">Dropdown</button>
-            <div class="dropdown-content">
-              <a href="#">Select</a>
-              <a href="#">Homeowner</a>
-              <a href="#">Landscaper</a>
-            </div>
-          </div>
+        <p>Login/Signup</p>
+        
+        <li>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="varEmail" />
+          <li>
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="varPassword" />
+          </li>
+
         <form method="get" action="play.html">
           <label for="name">Name</label>
           <input type="text" id="name" placeholder="Your name here" />
           <button type="submit">Login</button>
         </form>
-      </main>
+
+        <form method="get" action="signup.html">
+            <p>Click below to Signup</p>
+            <button type="submit">Signup</button>
+        </form>
+    </main>
 </html>
