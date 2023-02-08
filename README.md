@@ -41,3 +41,7 @@ HTML Input, I customized a few things to go along with a very rough draft of wha
 Original with all the inputs https://codepen.io/leesjensen/pen/dyVdNej
 
 HTML Media, super excited about the logo that I was able to make. https://codepen.io/agleaso4/pen/ExpMPKP 
+
+I was able to continue to setup my startup, and the formatting that I want it to have.
+I have made different pages for different types of users, and they are connected correctly.
+I made sure that they all look uniform with one another.
