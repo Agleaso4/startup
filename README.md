@@ -45,3 +45,5 @@ HTML Media, super excited about the logo that I was able to make. https://codepe
 I was able to continue to setup my startup, and the formatting that I want it to have.
 I have made different pages for different types of users, and they are connected correctly.
 I made sure that they all look uniform with one another.
+
+CSS Practice https://codepen.io/agleaso4/pen/yLxBjKz I was able to apply the centering technique and different button styles to make the index page look better, and I also learned how to implement it via another file rather than inline css
