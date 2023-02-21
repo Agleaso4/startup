@@ -9,30 +9,29 @@
         <link rel="icon" href="GreenConnect Logo.png" />
       </head>
     <body>
-      <img src="GreenConnect Logo.png"
-        width="200"/>
+      <header>
+        <img src="GreenConnect Logo.png" width="200"/>
+      </header>
+      
       <section>
-        <h1>Visit Schedule</h1 <ul style="list-style: none;">
-          <p>This is where a calendar will go with all the visits for that month</p>
+        <h1>Visit Schedule</h1>
+          <h2>This is where a calendar will go with all the visits for that month</h2>
       </section>
       <section>
         <h1>Schedule Visit</h1>
-        <li>
           <label for="datetime">DateTime: </label>
           <input type="datetime-local" name="varDatetime" id="datetime" />
-        </li>
-        <li>
             <!-- Any specific comments they want for that visit -->
+            <br><br>
           <label for="textarea">What would you like done during this visit? </label>
-        <li>
+        <br><br>
           <textarea id="textarea" name="varTextarea">      </textarea>
-        </li>
-        <li>
+        <br><br>
         <!-- Where clients can submit pictures of any places they want focused on -->
           <label for="file">Pictures of places that need more care: </label>
-        </li>
+        <br><br>
         <input type="file" id="file" name="varFile" accept="image/*" multiple />
-        <br>
+        <br><br>
         <button type="submit">Submit</button>
       </section>       
     </body>

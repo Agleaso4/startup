@@ -47,3 +47,6 @@ I have made different pages for different types of users, and they are connected
 I made sure that they all look uniform with one another.
 
 CSS Practice https://codepen.io/agleaso4/pen/yLxBjKz I was able to apply the centering technique and different button styles to make the index page look better, and I also learned how to implement it via another file rather than inline css
+
+CSS Simon - 
+I was able to notice a lot of good techniques that I will be transfering over to my startup platform like the simplicity factor. I feel like my startup is cool, but it does jump and it is a little comple. I also liked the emphasis on classes, and I am going to integrate that more especially to classify the users and the landscapers controls. 
