@@ -50,3 +50,7 @@ CSS Practice https://codepen.io/agleaso4/pen/yLxBjKz I was able to apply the cen
 
 CSS Simon - 
 I was able to notice a lot of good techniques that I will be transfering over to my startup platform like the simplicity factor. I feel like my startup is cool, but it does jump and it is a little comple. I also liked the emphasis on classes, and I am going to integrate that more especially to classify the users and the landscapers controls. 
+
+I was able to learn how to add certain colorings with different placements, which I am excited about, and it looks so much better. 
+
+I also was able to add in the google calendar from each, thing, and I will be setting up the accounts for the users and the landscapers, so they sync automatically
