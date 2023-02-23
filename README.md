@@ -54,3 +54,6 @@ I was able to notice a lot of good techniques that I will be transfering over to
 I was able to learn how to add certain colorings with different placements, which I am excited about, and it looks so much better. 
 
 I also was able to add in the google calendar from each, thing, and I will be setting up the accounts for the users and the landscapers, so they sync automatically
+
+JavaScript Functions https://codepen.io/agleaso4/pen/bGxeWMZ?editors=1111 I was able to write functions in JavaScript, and the thing that I thought was the most interesting was the inner functions and the anonymous functions.
+
