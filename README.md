@@ -58,3 +58,5 @@ I also was able to add in the google calendar from each, thing, and I will be se
 JavaScript Functions https://codepen.io/agleaso4/pen/bGxeWMZ?editors=1111 I was able to write functions in JavaScript, and the thing that I thought was the most interesting was the inner functions and the anonymous functions.
 
 JavaScript Arrow Functions - https://codepen.io/agleaso4/pen/ZEMOoNZ?editors=0011 I really liked learning of all the ways I could define these arrow functions, and how I could pass multiple variables in with the parentheses.
+
+JavaScript Arrays https://codepen.io/agleaso4/pen/oNPLMLy?editors=1111 The main things that I took away from this, are the versatility of array in JavaScript, and how we can manipulate them with single commands, as we combine arrow functions as well. 
