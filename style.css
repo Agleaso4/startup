@@ -36,6 +36,7 @@ main {
   color: black;
 }
 .first textarea{
+  background-color: whitesmoke;
   color: black;
 }
 .first *{
@@ -49,6 +50,7 @@ main {
   color: black;
 }
 .second textarea{
+  background-color: whitesmoke;
   color: black;
 }
 .second *{
