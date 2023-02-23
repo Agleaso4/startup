@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>GreenConnect</title>
-        <link rel="icon" href="GreenConnect Logo.png" />
-      </head>
-    <body>
-      <header>
-        <img src="GreenConnect Logo.png" width="200"/>
-      </header>
-      
-      <section>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenConnect</title>
+    <link rel="icon" href="GreenConnect Logo.png" />
+  </head>
+
+  <body>
+    <header>
+      <img src="GreenConnect Logo.png" width="200"/>
+    </header>    
+      <div class="first">
         <h1>Visit Schedule</h1>
-          <h2>This is where a calendar will go with all the visits for that month</h2>
-      </section>
-      <section>
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FDenver&mode=MONTH&showTitle=0&showTabs=0&showPrint=0&showCalendars=1&showNav=1&showTz=1&showDate=1&src=NDI4MDk0MTA4ODYwNmVhZmQ2NTkwZjg2NWZhNTZjYzgyYmNhMjQ5ZjU2ZjhmZmZjMmZiYmEwZDdiMjJjNWU1MUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23C0CA33" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        <br>
+      </div>
+      <div class="second">
         <h1>Schedule Visit</h1>
           <label for="datetime">DateTime: </label>
           <input type="datetime-local" name="varDatetime" id="datetime" />
@@ -32,7 +33,14 @@
         <br><br>
         <input type="file" id="file" name="varFile" accept="image/*" multiple />
         <br><br>
-        <button type="submit">Submit</button>
-      </section>       
+        <!---<button type="submit">Submit</button>--->
+        <a href="customer.html" class="button">Submit</a>
+      </div>       
     </body>
+    <footer>
+      <br>
+      <a href="customersignup.html" class="button">Contact us</a> <a href="https://www.facebook.com/accounts/login/" class="button">Facebook</a> <a href="https://www.instagram.com/accounts/login/" class="button">Instagram</a>
+      <br>
+      <br>
+    </footer>
 </html>
