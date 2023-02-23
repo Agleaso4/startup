@@ -32,12 +32,24 @@ main {
   padding: 2em;
   background-color: hsl(180, 10%, 80%);
 }
+.first input{
+  color: black;
+}
+.first textarea{
+  color: black;
+}
 .first *{
   color: white;
 }
 .second{
   padding: 2em;
   background-color: white;
+}
+.second input{
+  color: black;
+}
+.second textarea{
+  color: black;
 }
 .second *{
   color: #7ed957;
