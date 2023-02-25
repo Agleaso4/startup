@@ -60,3 +60,5 @@ JavaScript Functions https://codepen.io/agleaso4/pen/bGxeWMZ?editors=1111 I was 
 JavaScript Arrow Functions - https://codepen.io/agleaso4/pen/ZEMOoNZ?editors=0011 I really liked learning of all the ways I could define these arrow functions, and how I could pass multiple variables in with the parentheses.
 
 JavaScript Arrays https://codepen.io/agleaso4/pen/oNPLMLy?editors=1111 The main things that I took away from this, are the versatility of array in JavaScript, and how we can manipulate them with single commands, as we combine arrow functions as well. 
+
+JavaScript Objects and Classes https://codepen.io/agleaso4/pen/WNgGXgr?editors=0012 I think it is cool so we can classify things in classes, so we can sort them out with the startup. I think it is also nice with the objects, being able to store those values with paired names
