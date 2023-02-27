@@ -64,3 +64,5 @@ JavaScript Arrays https://codepen.io/agleaso4/pen/oNPLMLy?editors=1111 The main 
 JavaScript Objects and Classes https://codepen.io/agleaso4/pen/WNgGXgr?editors=0012 I think it is cool so we can classify things in classes, so we can sort them out with the startup. I think it is also nice with the objects, being able to store those values with paired names
 
 JavaScript Destructuring - https://codepen.io/agleaso4/pen/oNPYMpp?editors=1111 I was able to figure out how to take specific things out of arrays and objects, and also add to them
+
+JavaScript Exceptions https://codepen.io/agleaso4/pen/WNgomQP?editors=0011 The Try Catch and Finally are super useful, and I like how on the finally, it always prints out what you have allocated for that so it runs even when try or catch are called.
