@@ -68,3 +68,5 @@ JavaScript Destructuring - https://codepen.io/agleaso4/pen/oNPYMpp?editors=1111 
 JavaScript Exceptions https://codepen.io/agleaso4/pen/WNgomQP?editors=0011 The Try Catch and Finally are super useful, and I like how on the finally, it always prints out what you have allocated for that so it runs even when try or catch are called.
 
 JavaScript Rest and Spread https://codepen.io/agleaso4/pen/dyqOLGg?editors=0011 The rest is where we can pass in an undefined number of parameter and the spread allows us to seperate the parameters with the select number we have allocated.
+
+JavaScript Regular Expressions https ://codepen.io/agleaso4/pen/mdGOYPE?editors=0011 We were able to learn how the control f is used and how it works on a very basic level, and we will be able to use it in our future applications. 
