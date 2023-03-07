@@ -72,3 +72,5 @@ JavaScript Rest and Spread https://codepen.io/agleaso4/pen/dyqOLGg?editors=0011 
 JavaScript Regular Expressions https ://codepen.io/agleaso4/pen/mdGOYPE?editors=0011 We were able to learn how the control f is used and how it works on a very basic level, and we will be able to use it in our future applications. 
 
 JavaScript Document Object Model https://codepen.io/agleaso4/pen/eYLgENv I learned a little bit about implementing JavaScript and how it can act as HTML and create tables. I want to figure out how to pass in information. 
+
+Finished the JavaScript for the simon startup application. I tested it and everything is working the way it was supposed to. I need to really understand the little things about JavaScript, but being able to look things up, I was able to understand mostly everything that was pushed through.
