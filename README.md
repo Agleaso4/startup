@@ -54,3 +54,23 @@ I was able to notice a lot of good techniques that I will be transfering over to
 I was able to learn how to add certain colorings with different placements, which I am excited about, and it looks so much better. 
 
 I also was able to add in the google calendar from each, thing, and I will be setting up the accounts for the users and the landscapers, so they sync automatically
+
+JavaScript Functions https://codepen.io/agleaso4/pen/bGxeWMZ?editors=1111 I was able to write functions in JavaScript, and the thing that I thought was the most interesting was the inner functions and the anonymous functions.
+
+JavaScript Arrow Functions - https://codepen.io/agleaso4/pen/ZEMOoNZ?editors=0011 I really liked learning of all the ways I could define these arrow functions, and how I could pass multiple variables in with the parentheses.
+
+JavaScript Arrays https://codepen.io/agleaso4/pen/oNPLMLy?editors=1111 The main things that I took away from this, are the versatility of array in JavaScript, and how we can manipulate them with single commands, as we combine arrow functions as well. 
+
+JavaScript Objects and Classes https://codepen.io/agleaso4/pen/WNgGXgr?editors=0012 I think it is cool so we can classify things in classes, so we can sort them out with the startup. I think it is also nice with the objects, being able to store those values with paired names
+
+JavaScript Destructuring - https://codepen.io/agleaso4/pen/oNPYMpp?editors=1111 I was able to figure out how to take specific things out of arrays and objects, and also add to them
+
+JavaScript Exceptions https://codepen.io/agleaso4/pen/WNgomQP?editors=0011 The Try Catch and Finally are super useful, and I like how on the finally, it always prints out what you have allocated for that so it runs even when try or catch are called.
+
+JavaScript Rest and Spread https://codepen.io/agleaso4/pen/dyqOLGg?editors=0011 The rest is where we can pass in an undefined number of parameter and the spread allows us to seperate the parameters with the select number we have allocated.
+
+JavaScript Regular Expressions https ://codepen.io/agleaso4/pen/mdGOYPE?editors=0011 We were able to learn how the control f is used and how it works on a very basic level, and we will be able to use it in our future applications. 
+
+JavaScript Document Object Model https://codepen.io/agleaso4/pen/eYLgENv I learned a little bit about implementing JavaScript and how it can act as HTML and create tables. I want to figure out how to pass in information. 
+
+Finished the JavaScript for the simon startup application. I tested it and everything is working the way it was supposed to. I need to really understand the little things about JavaScript, but being able to look things up, I was able to understand mostly everything that was pushed through.
