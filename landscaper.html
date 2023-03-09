@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GreenConnect</title>
     <link rel="icon" href="GreenConnect Logo.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <script src="calendar.js" defer></script>
+
 </head>
 
 <body>
@@ -26,17 +29,32 @@
     <main>
         <div class="first">
             <h1>Visit Schedule Week</h1>
-            <iframe
-                src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FDenver&mode=WEEK&showTitle=0&showTabs=0&showPrint=0&showCalendars=1&showNav=1&showTz=1&showDate=1&src=NDI4MDk0MTA4ODYwNmVhZmQ2NTkwZjg2NWZhNTZjYzgyYmNhMjQ5ZjU2ZjhmZmZjMmZiYmEwZDdiMjJjNWU1MUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23C0CA33"
-                style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-            <br>
+            
         </div>
         <div class="second">
             <h1>Visit Schedule Month</h1>
-            <iframe
-                src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FDenver&mode=MONTH&showTitle=0&showTabs=0&showPrint=0&showCalendars=1&showNav=1&showTz=1&showDate=1&src=NDI4MDk0MTA4ODYwNmVhZmQ2NTkwZjg2NWZhNTZjYzgyYmNhMjQ5ZjU2ZjhmZmZjMmZiYmEwZDdiMjJjNWU1MUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23C0CA33"
-                style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-            <br>
+            <br><br>
+            <div class="calendar-container">
+                <header>
+                  <p class="current-date"></p>
+                  <div class="icons">
+                    <span id="prev" class="material-symbols-rounded">chevron_left</span>
+                    <span id="next" class="material-symbols-rounded">chevron_right</span>
+                  </div>
+                </header>
+                <div class="calendar">
+                  <ul class="weeks">
+                    <li>Sun</li>
+                    <li>Mon</li>
+                    <li>Tue</li>
+                    <li>Wed</li>
+                    <li>Thu</li>
+                    <li>Fri</li>
+                    <li>Sat</li>
+                  </ul>
+                  <ul class="days"></ul>
+                </div>
+            </div>
         </div>
     </main>
 
