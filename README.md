@@ -74,3 +74,5 @@ JavaScript Regular Expressions https ://codepen.io/agleaso4/pen/mdGOYPE?editors=
 JavaScript Document Object Model https://codepen.io/agleaso4/pen/eYLgENv I learned a little bit about implementing JavaScript and how it can act as HTML and create tables. I want to figure out how to pass in information. 
 
 Finished the JavaScript for the simon startup application. I tested it and everything is working the way it was supposed to. I need to really understand the little things about JavaScript, but being able to look things up, I was able to understand mostly everything that was pushed through.
+
+Finished the JavaScript for this startup application, and I was able to figure out how to transfer data between input on one HTML doc to another table in another HTML doc. I also added some calendars to show the day that they are on so they can add appointment so they don't have to look at their phone to see the dates or switch apps to see the dates. I also added the functionality to click the logo and have it take you back to the home page so it is easier to navigate. 
