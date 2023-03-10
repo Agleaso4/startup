@@ -10,7 +10,12 @@
     <link rel="icon" href="GreenConnect Logo.png" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <script src="calendar.js" defer></script>
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
 </head>
 
 <body>
@@ -19,17 +24,48 @@
         <a href="index.html">
             <img src="GreenConnect Logo.png" width="200" />
         </a>
-        <br><br>
-        <div class="landscaperUserName">
-            Welcome 
-            <span class="user-name"></span>
-        </div>
     </header>
 
     <main>
         <div class="first">
             <h1>Visit Schedule Week</h1>
-            
+            <div class="container-fluid text-center">
+                <table class="table table-light table-striped-columns">
+                  <thead class="table-light">
+                    <tr>
+                      <th>Date</th>
+                      <th>Name</th>
+                      <th>Time</th>
+                      <th>Address</th>
+                      <th>Notes</th>
+                    </tr>
+                  </thead>
+                  <tbody class="table-body">
+                    <tr>
+                        <th>3-12-23</th>
+                        <th>Grawson</th>
+                        <th>10:30AM</th>
+                        <th>5412 Timberwolf Ct, Eielson Afb, Alaska 99702, USA</th>
+                        <th>The Side of the yard needs more focus, especially by the roses</th>
+                    </tr>
+                    <tr>
+                        <th>3-13-23</th>
+                        <th>Wilson</th>
+                        <th>12:30PM</th>
+                        <th>1518 Stellar Dr, Kenai, Alaska 99611, USA</th>
+                        <th>The flowers are wilting, so we will need to give them more water</th>
+                    </tr>
+                    <tr>
+                        <th>3-14-23</th>
+                        <th>Gleeson</th>
+                        <th>9:00AM</th>
+                        <th>911 Hillside Dr, Kodiak, Alaska 99615, USA</th>
+                        <th>Time to lay down sod in the back</th>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+          
         </div>
         <div class="second">
             <h1>Visit Schedule Month</h1>
@@ -58,15 +94,16 @@
         </div>
     </main>
 
+    <footer>
+        <br>
+        <a href="contact.html" class="button">Contact us</a> <a href="https://www.facebook.com/accounts/login/"
+            class="button">Facebook</a> <a href="https://www.instagram.com/accounts/login/" class="button">Instagram</a>
+        <br>
+        <br>
+    </footer>
+
+    <script src="login.js"></script>
 
 </body>
 
-<footer>
-    <br>
-    <a href="contact.html" class="button">Contact us</a> <a href="https://www.facebook.com/accounts/login/"
-        class="button">Facebook</a> <a href="https://www.instagram.com/accounts/login/" class="button">Instagram</a>
-    <br>
-    <br>
-</footer>
-<script src="login.js"></script>
 </html>
