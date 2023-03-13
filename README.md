@@ -76,3 +76,5 @@ JavaScript Document Object Model https://codepen.io/agleaso4/pen/eYLgENv I learn
 Finished the JavaScript for the simon startup application. I tested it and everything is working the way it was supposed to. I need to really understand the little things about JavaScript, but being able to look things up, I was able to understand mostly everything that was pushed through.
 
 Finished the JavaScript for this startup application, and I was able to figure out how to transfer data between input on one HTML doc to another table in another HTML doc. I also added some calendars to show the day that they are on so they can add appointment so they don't have to look at their phone to see the dates or switch apps to see the dates. I also added the functionality to click the logo and have it take you back to the home page so it is easier to navigate. 
+
+JavaScript Fetch https://codepen.io/agleaso4/pen/RwYQEMb?editors=0010, I thought it was really interesting how I can manipulate certain parts of protocol in the request or even the response and use that data that I manipulated in the print out.
