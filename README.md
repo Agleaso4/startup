@@ -77,4 +77,6 @@ Finished the JavaScript for the simon startup application. I tested it and every
 
 Finished the JavaScript for this startup application, and I was able to figure out how to transfer data between input on one HTML doc to another table in another HTML doc. I also added some calendars to show the day that they are on so they can add appointment so they don't have to look at their phone to see the dates or switch apps to see the dates. I also added the functionality to click the logo and have it take you back to the home page so it is easier to navigate. 
 
+JavaScript Fetch https://codepen.io/agleaso4/pen/RwYQEMb?editors=0010, I thought it was really interesting how I can manipulate certain parts of protocol in the request or even the response and use that data that I manipulated in the print out.
+
 I completed the service  for the Simon startup application, and the things that I want to remember are the frameworks we can use for services. I also think know the difference on how to upload is also a big part, otherwise they won't register correctly and they won't work. 
