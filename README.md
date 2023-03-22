@@ -82,3 +82,5 @@ JavaScript Fetch https://codepen.io/agleaso4/pen/RwYQEMb?editors=0010, I thought
 I completed the service  for the Simon startup application, and the things that I want to remember are the frameworks we can use for services. I also think know the difference on how to upload is also a big part, otherwise they won't register correctly and they won't work. 
 
 I completed the SimonDB assignment and it makes so much mores sense to me then when I was doing the assignment before. I like how it is all set up also, so it can easily access the information, and have it in a readable format on the database, so I can check for any errors. Something I have to remember is to always update both my local dev and my project AWS rather than just one with launching the database when I am first starting out.
+
+Being able to see the login actually work and function on Simon is exactly what I am needing for my startup! It took a little while to figure out which dependencies I was missing, but once I figured those out, I got it done fairly quickly!
