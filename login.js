@@ -11,11 +11,9 @@ const { error } = require("console");
     }
   
     if (authenticated) {
-      document.querySelector('#playerName').textContent = userName;
-      setDisplay('loginControls', 'none');
-      setDisplay('playControls', 'block');
+      document.querySelector('#userName').textContent = userName;
     } else {
-      error("Email or Password not in our database");
+      throw Error("Email or Password not in our database");
     }
   })();
   
