@@ -1,3 +1,5 @@
+const { error } = require("console");
+
 (async () => {
     let authenticated = false;
     const userName = localStorage.getItem('userName');
@@ -13,8 +15,7 @@
       setDisplay('loginControls', 'none');
       setDisplay('playControls', 'block');
     } else {
-      setDisplay('loginControls', 'block');
-      setDisplay('playControls', 'none');
+      error("Email or Password not in our database");
     }
   })();
   
