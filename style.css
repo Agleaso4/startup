@@ -18,15 +18,15 @@ header {
   background: #7ed957;
 }
 
-footer {
-  flex: 0 30px;
-  background: hsl(180, 10%, 10%);
-}
-
 main {
   flex: 1;
   display: flex;
   flex-direction: column;
+}
+
+footer {
+  flex: 0 30px;
+  background: hsl(180, 10%, 10%);
 }
 
 .player-name {
@@ -36,6 +36,7 @@ main {
 .first {
   padding: 2em;
   background-color: hsl(180, 10%, 80%);
+  font-size: x-large;
 }
 
 .first input {
@@ -54,6 +55,7 @@ main {
 .second {
   padding: 2em;
   background-color: white;
+  font-size: x-large;
 }
 
 .second input {
@@ -134,7 +136,7 @@ button:hover {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  font-size: 22px;
 }
 
 .button:hover {
