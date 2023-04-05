@@ -86,3 +86,8 @@ I completed the SimonDB assignment and it makes so much mores sense to me then w
 Being able to see the login actually work and function on Simon is exactly what I am needing for my startup! It took a little while to figure out which dependencies I was missing, but once I figured those out, I got it done fairly quickly!
 
 Reactivity https://codepen.io/agleaso4/pen/WNgVBNB?editors=0010 It is awesome how you can change the entire layout of something with react and also the functionality of it with just a few lines. I need to remember to replace static code to react so that if it does need to be changed, it will be easier than re-writing the entire file.
+
+StartUp DB deliverable: Awesome figuring out how to use a database with storing information. I am still wanting to dig more into it with finding out how to store appointments to specific users that are already in the database, so that I can have multiple landscapers and multiple customers connected with different landscapers. 
+I am still figuring out the Websocket on it, so that they will be able to have a live chat so that the customer can get a response quickly to any questions, or the landscaper can as any pressing concerns while working or preparing the yard. 
+
+React CLI, it was super cool to be able to use the react components, and especially how it was already built with the framework, and I was able to munipulate it the way that I was wanting, and the way that I needed. It was super quick to build the final version too, for the landing page.
