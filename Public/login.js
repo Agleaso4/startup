@@ -1,5 +1,3 @@
-const { error } = require("console");
-
 (async () => {
     let authenticated = false;
     const userName = localStorage.getItem('userName');
@@ -13,27 +11,26 @@ const { error } = require("console");
     if (authenticated) {
       document.querySelector('#userName').textContent = userName;
     } else {
-      throw Error("Email or Password not in our database");
     }
   })();
-  
+
   async function loginLandscaper() {
-    loginOrCreate(`/api/auth/login`);
+    loginOrCreateLandscaper(`/api/auth/login`);
   }
   
   async function createLandscaper() {
-    loginOrCreate(`/api/auth/create`);
+    loginOrCreateLandscaper(`/api/auth/create`);
   }
 
   async function loginCustomer() {
-    loginOrCreate(`/api/auth/login`);
+    loginOrCreateCustomer(`/api/auth/login`);
   }
   
   async function createCustomer() {
-    loginOrCreate(`/api/auth/create`);
+    loginOrCreateCustomer(`/api/auth/create`);
   }
   
-  async function loginOrCreate(endpoint) {
+  async function loginOrCreateLandscaper(endpoint) {
     const userName = document.querySelector('#userName')?.value;
     const password = document.querySelector('#userPassword')?.value;
     const response = await fetch(endpoint, {
@@ -47,12 +44,39 @@ const { error } = require("console");
   
     if (response?.status === 200) {
       localStorage.setItem('userName', userName);
-      window.location.href = 'play.html';
+      window.location.href = 'landscaper.html';
     } else {
-      const modalEl = document.querySelector('#msgModal');
-      modalEl.querySelector('.modal-body').textContent = `⚠ Error: ${body.msg}`;
-      const msgModal = new bootstrap.Modal(modalEl, {});
-      msgModal.show();
+      let text;
+      if(confirm("Username or Password incorrect, or not yet created") == true) {
+        text = "Create one now!";
+      } else {
+        text = "You need to type it in correctly";
+      }
+    }
+  }
+
+  async function loginOrCreateCustomer(endpoint) {
+    const userName = document.querySelector('#userName')?.value;
+    const password = document.querySelector('#userPassword')?.value;
+    const response = await fetch(endpoint, {
+      method: 'post',
+      body: JSON.stringify({ email: userName, password: password }),
+      headers: {
+        'Content-type': 'application/json; charset=UTF-8',
+      },
+    });
+    const body = await response.json();
+  
+    if (response?.status === 200) {
+      localStorage.setItem('userName', userName);
+      window.location.href = 'customer.html';
+    } else {
+      let text;
+      if(confirm("Username or Password incorrect, or not yet created") == true) {
+        text = "Create one now!";
+      } else {
+        text = "You need to type it in correctly";
+      }
     }
   }
 

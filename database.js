@@ -53,7 +53,7 @@ async function createLandscaper(email, password) {
 }
 
 function addAppointment() {
-  appointmentCollection.insertOne(addAppointments());
+  appointmentCollection.insertOne(appointment);
 }
 
 function getAppointments() {

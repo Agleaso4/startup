@@ -1,10 +1,10 @@
 function addAppointments(){
-    let arr = localStorage.getItem("localData");
-    arr = JSON.parse(arr);
-    if(arr === null){
-        arr = [];
+    let appointments = localStorage.getItem("localData");
+    appointments = JSON.parse(appointments);
+    if(appointments === null){
+        appointments = [];
     }
-    arr.push({
+    appointments.push({
         date:document.getElementById("date").value,
         name:document.getElementById("name").value,
         time:document.getElementById("time").value,
@@ -12,5 +12,5 @@ function addAppointments(){
         note:document.getElementById("note").value
     });
 
-    localStorage.setItem("localData", JSON.stringify(arr));
+    localStorage.setItem("localData", JSON.stringify(appointments));
 }
