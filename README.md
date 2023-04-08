@@ -91,3 +91,5 @@ StartUp DB deliverable: Awesome figuring out how to use a database with storing 
 I am still figuring out the Websocket on it, so that they will be able to have a live chat so that the customer can get a response quickly to any questions, or the landscaper can as any pressing concerns while working or preparing the yard. 
 
 React CLI, it was super cool to be able to use the react components, and especially how it was already built with the framework, and I was able to munipulate it the way that I was wanting, and the way that I needed. It was super quick to build the final version too, for the landing page.
+
+React Simon -  I think it is the coolest thing to have everything going off of one page and then it interacting with the user and showing what is going on depending on the clicks and the items they select. I learned how to shift all of the essentials over to one file for the layout and then from there we were able to piece apart everything else. 
