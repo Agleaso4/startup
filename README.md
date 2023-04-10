@@ -92,4 +92,6 @@ I am still figuring out the Websocket on it, so that they will be able to have a
 
 React CLI, it was super cool to be able to use the react components, and especially how it was already built with the framework, and I was able to munipulate it the way that I was wanting, and the way that I needed. It was super quick to build the final version too, for the landing page.
 
+React Router, https://codepen.io/agleaso4/pen/VwELyoL?editors=0010 It is awesome to be able to jump from one page to another and have them all connected on one "JS" babel, and navigate between all of them. I like how you can also insert more links throughout one page to another by just editing the one babel.
+
 React Simon -  I think it is the coolest thing to have everything going off of one page and then it interacting with the user and showing what is going on depending on the clicks and the items they select. I learned how to shift all of the essentials over to one file for the layout and then from there we were able to piece apart everything else. 
